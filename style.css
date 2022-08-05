@@ -10,12 +10,14 @@
   margin: auto;
 }
 #character {
-  width: 20px;
-  height: 50px;
-  background-color: red;
+  width: 40px;
+  height: 40px;
+/*   background-color: red; */
   position: relative;
   top: 150px;
-  
+  background-image: url("https://bengsfort.github.io/assets/pixel-art/MainCharacter_32x32_run.gif");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 .animate {
   animation: jump 0.3s linear;
@@ -32,11 +34,14 @@
 #block {
   width: 20px;
   height: 20px;
-  background-color: blue;
+/*   background-color: blue; */
+  background-image: url("https://media1.giphy.com/media/7zJZY7I0bT5s1pmgem/giphy.gif?cid=6c09b952e8e7761717a944cdda4897fa2bccf6a2410bf92a&rid=giphy.gif&ct=s");
+  background-size: contain;
+  background-repeat: no-repeat;
   position: relative;
   top: 130px;
   left: 480px;
-  animation: block 1.5s infinite linear;
+  animation: block 1s infinite linear;
 }
 
 @keyframes block{
